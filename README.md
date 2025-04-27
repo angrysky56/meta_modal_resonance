@@ -1,140 +1,137 @@
-# Meta-Modal Resonance Theory: Computational Framework
+# Meta-Modal Resonance Theory Framework
 
 ## Overview
 
 This repository implements a computational framework for modeling the "Meta-Modal Resonance Theory" (MMRT) of meaning-construction in human consciousness. The theory proposes that profound meaning emerges through the dynamic integration of three fundamental experiential modalities:
 
-1. **Hedonic Satisfaction Algorithms** - Processing related to immediate rewards, pleasure, and pain-avoidance
-2. **Eudaimonic Purpose Functions** - Processing related to growth, development, purpose, and virtuous action
-3. **Transcendent Connection Networks** - Processing related to boundary dissolution and integration with larger systems
+1. **Hedonic Processing** - Systems related to pleasure, pain, and immediate reward/threat evaluation
+2. **Eudaimonic Processing** - Systems related to purpose, growth, achievement, and virtuous action
+3. **Transcendent Processing** - Systems related to boundary dissolution, connection, and integration with larger wholes
 
 The computational framework simulates how these three processing modes interact within individual agents and across multi-agent systems to create emergent meaning structures that are more robust than those produced by any single modality alone.
 
-## Philosophical Foundation
+## Key Features
 
-### Theoretical Premise
+- **Multi-Modal Agent Architecture**: Agents with parallel processing across hedonic, eudaimonic, and transcendent domains
+- **Oscillatory Control System**: Dynamic shifting of processing emphasis between modalities
+- **Meaning Structure Construction**: Temporal integration of modal outputs into coherent structures
+- **Environmental Simulation**: Variable contexts that create different demands on processing systems
+- **Integration Metrics**: Quantitative measures for meaning coherence, resilience, and integration
+- **Rich Visualization**: Tools for visualizing meaning structures and their properties
 
-The Meta-Modal Resonance Theory posits that meaning emerges not from optimizing any single experiential modality, but through their temporal-dynamic integration across different phenomenological states. Consciousness achieves meaning through oscillatory harmonics between:
+## Installation
 
-- Strategic immersion in hedonic states that fulfill biological imperatives (dopaminergic reward activation)
-- Sustained engagement with teleological development vectors that extend the self across time (eudaimonic growth trajectories)
-- Periodic dissolution of ego-boundaries enabling network integration with transpersonal information fields (transcendent resonance patterns)
+### Prerequisites
 
-### Computational Semantics of Integrated Meaning
+- Python 3.8 or higher
+- pip or conda for package management
 
-The computational model implements three core mechanisms:
+### Steps
 
-1. **Autopoietic Oscillation** - Dynamic movement between processing modes based on contextual variables and developmental stage
-2. **Temporal Integration** - The capacity to weave disparate experiential modalities into coherent narrative structures with emergent properties
-3. **Recursive Self-Modification** - Continual refinement of the integration parameters themselves based on feedback from lived experience
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/meta_modal_resonance.git
+   cd meta_modal_resonance
+   ```
 
-### Philosophical Integration
+2. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-This framework provides a computational hermeneutic through which diverse philosophical traditions can be understood as emphasizing different aspects of the same integrated system:
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- **Buddhist traditions**: Algorithm for modal integration through metacognitive observation that collapses separation between modalities
-- **Epicureanism vs. Stoicism**: Competing optimization functions within the same computational framework
-- **Existentialism**: Meta-algorithmic approach recognizing human capacity to define integration parameters
-- **Virtue Ethics**: Teleological feedback system based on practice, narrative, and tradition
-- **Process Philosophy**: Dynamic systems integration of prehension, concrescence, and objective immortality
+4. Install the package in development mode:
+   ```bash
+   pip install -e .
+   ```
 
-## Research Questions & Hypotheses
+## Quick Start
 
-1. **Primary Hypothesis**: Agents that develop adaptive oscillation between hedonic, eudaimonic, and transcendent processing modes will demonstrate greater meaning resilience (measured through narrative coherence and identity stability) than agents optimizing any single modality.
+Run a basic experiment comparing different agent types:
 
-2. **Research Questions**:
-   - What oscillatory patterns between modalities produce the most robust meaning structures?
-   - How do different environmental contexts affect optimal modal integration?
-   - What developmental trajectories lead to sophisticated integration capabilities?
-   - How does inter-agent interaction affect meaning construction processes?
-   - To what extent can meaning structures survive catastrophic disruptions to one modal system?
+```bash
+python experiments/modal_comparison.py --agents-per-type 3 --duration 100 --output-dir results
+```
 
-## Methodological Approach
+This will:
+1. Create agents of each type (hedonic optimizer, eudaimonic optimizer, transcendent optimizer, and meta-modal integrator)
+2. Expose them to identical environmental sequences
+3. Compare their meaning construction capabilities
+4. Generate visualizations and metrics
 
-### Computational Framework
-
-The simulation extends existing agent-based emotional modeling with:
-
-1. **Modal Region Specification**: Dedicated regions for hedonic, eudaimonic, and transcendent processing
-2. **Oscillatory Controller**: Metacognitive mechanism governing transitions between processing modes
-3. **Integration Metrics**: Measures to quantify modal balance, temporal integration, and meaning resilience
-4. **Environmental Simulation**: Variable contexts creating different demands on agents' processing systems
-5. **Developmental Modeling**: Longitudinal simulation of how integration capability evolves
-
-### Implementation Strategy
-
-The implementation builds upon existing agent-based emotional simulation frameworks with:
-
-1. `MetaModalAgent` class that extends standard agents with modal processing capabilities
-2. `MeaningStructure` class representing the output of integrated modal processing
-3. `OscillatoryController` managing dynamic transitions between processing modes
-4. `EnvironmentalContext` creating variable demands on the system
-5. `IntegrationMetrics` providing quantitative measures of meaning construction
-
-### Experimental Design
-
-The computational experiments will test:
-
-1. **Modal Optimization vs. Integration**: Compare agents optimizing single modalities vs. adaptive integration
-2. **Oscillation Patterns**: Test different patterns of modal shifting (frequency, sequence, context-sensitivity)
-3. **Perturbation Resilience**: Measure meaning structure stability following disruptions
-4. **Developmental Trajectories**: Model long-term acquisition of integration capabilities
-5. **Social Propagation**: Analyze how meaning structures spread in multi-agent systems
-
-## Project Structure
+## Repository Structure
 
 ```
 meta_modal_resonance/
-├── docs/
+├── docs/                      # Theoretical documentation
 │   ├── theoretical_foundation.md
 │   ├── implementation_plan.md
 │   └── experimental_design.md
-├── src/
-│   ├── agents/
+├── src/                       # Source code
+│   ├── agents/                # Agent definitions
 │   │   ├── meta_modal_agent.py
 │   │   └── oscillatory_controller.py
-│   ├── environment/
+│   ├── environment/           # Environment simulation
 │   │   └── context_generator.py
-│   ├── metrics/
+│   ├── metrics/               # Evaluation metrics
 │   │   └── integration_metrics.py
-│   └── structures/
-│       └── meaning_structure.py
-├── experiments/
+│   └── visualization/         # Visualization tools
+│       └── meaning_structure_visualizer.py
+├── experiments/               # Experiment scripts
 │   ├── modal_comparison.py
-│   ├── oscillation_patterns.py
 │   └── resilience_testing.py
-├── visualization/
-│   ├── modal_state_visualizer.py
-│   └── meaning_structure_visualizer.py
 └── README.md
 ```
 
-## Implementation Roadmap
+## Experiments
 
-1. **Phase 1**: Core architecture development
-   - Implement `MetaModalAgent` with trimodal processing regions
-   - Develop basic oscillatory controller
-   - Create fundamental meaning structure representation
+### Modal Comparison
 
-2. **Phase 2**: Integration metrics and visualization
-   - Implement measures of narrative coherence
-   - Develop identity stability metrics
-   - Create visualizations of modal states and meaning structures
+This experiment tests the primary hypothesis that agents capable of dynamic integration across modalities will develop more coherent and resilient meaning structures than agents primarily operating within a single modality.
 
-3. **Phase 3**: Experimental implementation
-   - Implement comparison experiments
-   - Develop perturbation testing
-   - Create developmental simulations
+```bash
+python experiments/modal_comparison.py --help
+```
 
-4. **Phase 4**: Multi-agent extension
-   - Implement social propagation of meaning structures
-   - Model collective meaning-making
-   - Analyze emergence of cultural meaning systems
+Parameters:
+- `--agents-per-type`: Number of agents per type to create (default: 3)
+- `--duration`: Number of time steps to run the experiment (default: 100)
+- `--complexity`: Environmental complexity level, 0.0-1.0 (default: 0.7)
+- `--volatility`: Environmental volatility level, 0.0-1.0 (default: 0.5)
+- `--output-dir`: Directory for result files (default: 'results')
+
+### Perturbation Resilience
+
+This experiment tests how different types of meaning structures respond to various perturbations, examining the hypothesis that integrated structures demonstrate greater resilience to disruption.
+
+```bash
+python experiments/resilience_testing.py --help
+```
+
+## Citation
+
+If you use this framework in your research, please cite:
+
+```
+@misc{mmrt2025,
+  author = {Author},
+  title = {Meta-Modal Resonance Theory: A Computational Framework for Meaning Construction},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/username/meta_modal_resonance}}
+}
+```
 
 ## Contributing
 
-This project is in early development. Contributions are welcome - please see the contribution guidelines in CONTRIBUTING.md.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## References
+## License
 
-[Coming soon - philosophical and computational literature supporting this approach]
+This project is licensed under the MIT License - see the LICENSE file for details.

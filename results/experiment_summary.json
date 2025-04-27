@@ -1,0 +1,335 @@
+{
+  "experiment_params": {
+    "num_agents_per_type": 3,
+    "environment_complexity": 0.7,
+    "environment_volatility": 0.5,
+    "experiment_duration": 100,
+    "perturbation_schedule": [
+      {
+        "time_step": 16,
+        "type": "narrative_disruption",
+        "intensity": 0.7,
+        "target_components": null
+      },
+      {
+        "time_step": 32,
+        "type": "identity_disruption",
+        "intensity": 0.7,
+        "target_components": null
+      },
+      {
+        "time_step": 48,
+        "type": "value_disruption",
+        "intensity": 0.7,
+        "target_components": null
+      },
+      {
+        "time_step": 64,
+        "type": "meta_cognitive_disruption",
+        "intensity": 0.7,
+        "target_components": null
+      },
+      {
+        "time_step": 80,
+        "type": "random_disruption",
+        "intensity": 0.7,
+        "target_components": null
+      }
+    ]
+  },
+  "final_metrics": {
+    "hedonic_1": {
+      "narrative_coherence": 0.8712190063974468,
+      "identity_stability": 0.3,
+      "modal_balance": 0.38584355682864246,
+      "perturbation_resilience": 0.5456563139247073,
+      "developmental_progress": 0.6,
+      "meaning_resilience": 0.8105633459030879,
+      "temporal_integration": 0.8712190063974468,
+      "structural_complexity": 0.8260801393126943
+    },
+    "hedonic_2": {
+      "narrative_coherence": 0.8290896397129569,
+      "identity_stability": 0.3,
+      "modal_balance": 0.6860429850248526,
+      "perturbation_resilience": 0.5888444528901533,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.8374043765685644,
+      "temporal_integration": 0.8290896397129569,
+      "structural_complexity": 0.8260801393126943
+    },
+    "hedonic_3": {
+      "narrative_coherence": 0.8499469051240904,
+      "identity_stability": 0.3,
+      "modal_balance": 0.7976903162295991,
+      "perturbation_resilience": 0.619516825295556,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.849941889441425,
+      "temporal_integration": 0.8499469051240904,
+      "structural_complexity": 0.8260801393126943
+    },
+    "eudaimonic_1": {
+      "narrative_coherence": 0.858458874194636,
+      "identity_stability": 0.3,
+      "modal_balance": 0.7433317584372479,
+      "perturbation_resilience": 0.612049901365304,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.844579518696076,
+      "temporal_integration": 0.858458874194636,
+      "structural_complexity": 0.8260801393126943
+    },
+    "eudaimonic_2": {
+      "narrative_coherence": 0.860848574374409,
+      "identity_stability": 0.3,
+      "modal_balance": 0.38848615404593634,
+      "perturbation_resilience": 0.5420366605589508,
+      "developmental_progress": 0.6,
+      "meaning_resilience": 0.8097702878065023,
+      "temporal_integration": 0.860848574374409,
+      "structural_complexity": 0.8260801393126943
+    },
+    "eudaimonic_3": {
+      "narrative_coherence": 0.8755543511108497,
+      "identity_stability": 0.3,
+      "modal_balance": 0.8233501517364208,
+      "perturbation_resilience": 0.6348917707916241,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.8524644081958413,
+      "temporal_integration": 0.8755543511108497,
+      "structural_complexity": 0.8260801393126943
+    },
+    "transcendent_1": {
+      "narrative_coherence": 0.859693570159471,
+      "identity_stability": 0.3,
+      "modal_balance": 0.46303275232455565,
+      "perturbation_resilience": 0.5564839785286996,
+      "developmental_progress": 0.6,
+      "meaning_resilience": 0.8144237261453295,
+      "temporal_integration": 0.859693570159471,
+      "structural_complexity": 0.8260801393126943
+    },
+    "transcendent_2": {
+      "narrative_coherence": 0.8594525049416317,
+      "identity_stability": 0.3,
+      "modal_balance": 0.5708245621511117,
+      "perturbation_resilience": 0.577945914406875,
+      "developmental_progress": 0.6,
+      "meaning_resilience": 0.827899718003149,
+      "temporal_integration": 0.8594525049416317,
+      "structural_complexity": 0.8260801393126943
+    },
+    "transcendent_3": {
+      "narrative_coherence": 0.8544558899613273,
+      "identity_stability": 0.3,
+      "modal_balance": 0.7253281466444974,
+      "perturbation_resilience": 0.6068479853134304,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.8437374510279674,
+      "temporal_integration": 0.8544558899613273,
+      "structural_complexity": 0.8260801393126943
+    },
+    "integrator_1": {
+      "narrative_coherence": 0.878197161320684,
+      "identity_stability": 0.3,
+      "modal_balance": 0.4706955257082549,
+      "perturbation_resilience": 0.5654179696699246,
+      "developmental_progress": 0.6,
+      "meaning_resilience": 0.8198926202676546,
+      "temporal_integration": 0.878197161320684,
+      "structural_complexity": 0.8260801393126943
+    },
+    "integrator_2": {
+      "narrative_coherence": 0.8421218241081119,
+      "identity_stability": 0.3,
+      "modal_balance": 0.6646030917443408,
+      "perturbation_resilience": 0.5897693479921129,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.8344112362995074,
+      "temporal_integration": 0.8421218241081119,
+      "structural_complexity": 0.8260801393126943
+    },
+    "integrator_3": {
+      "narrative_coherence": 0.8903519064962857,
+      "identity_stability": 0.3,
+      "modal_balance": 0.7445041205373817,
+      "perturbation_resilience": 0.6250415867059906,
+      "developmental_progress": 0.9,
+      "meaning_resilience": 0.848070393959397,
+      "temporal_integration": 0.8903519064962857,
+      "structural_complexity": 0.8260801393126943
+    }
+  },
+  "metrics_by_type": {
+    "hedonic": {
+      "hedonic_1": {
+        "narrative_coherence": 0.8712190063974468,
+        "identity_stability": 0.3,
+        "modal_balance": 0.38584355682864246,
+        "perturbation_resilience": 0.5456563139247073,
+        "developmental_progress": 0.6,
+        "meaning_resilience": 0.8105633459030879,
+        "temporal_integration": 0.8712190063974468,
+        "structural_complexity": 0.8260801393126943
+      },
+      "hedonic_2": {
+        "narrative_coherence": 0.8290896397129569,
+        "identity_stability": 0.3,
+        "modal_balance": 0.6860429850248526,
+        "perturbation_resilience": 0.5888444528901533,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.8374043765685644,
+        "temporal_integration": 0.8290896397129569,
+        "structural_complexity": 0.8260801393126943
+      },
+      "hedonic_3": {
+        "narrative_coherence": 0.8499469051240904,
+        "identity_stability": 0.3,
+        "modal_balance": 0.7976903162295991,
+        "perturbation_resilience": 0.619516825295556,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.849941889441425,
+        "temporal_integration": 0.8499469051240904,
+        "structural_complexity": 0.8260801393126943
+      }
+    },
+    "eudaimonic": {
+      "eudaimonic_1": {
+        "narrative_coherence": 0.858458874194636,
+        "identity_stability": 0.3,
+        "modal_balance": 0.7433317584372479,
+        "perturbation_resilience": 0.612049901365304,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.844579518696076,
+        "temporal_integration": 0.858458874194636,
+        "structural_complexity": 0.8260801393126943
+      },
+      "eudaimonic_2": {
+        "narrative_coherence": 0.860848574374409,
+        "identity_stability": 0.3,
+        "modal_balance": 0.38848615404593634,
+        "perturbation_resilience": 0.5420366605589508,
+        "developmental_progress": 0.6,
+        "meaning_resilience": 0.8097702878065023,
+        "temporal_integration": 0.860848574374409,
+        "structural_complexity": 0.8260801393126943
+      },
+      "eudaimonic_3": {
+        "narrative_coherence": 0.8755543511108497,
+        "identity_stability": 0.3,
+        "modal_balance": 0.8233501517364208,
+        "perturbation_resilience": 0.6348917707916241,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.8524644081958413,
+        "temporal_integration": 0.8755543511108497,
+        "structural_complexity": 0.8260801393126943
+      }
+    },
+    "transcendent": {
+      "transcendent_1": {
+        "narrative_coherence": 0.859693570159471,
+        "identity_stability": 0.3,
+        "modal_balance": 0.46303275232455565,
+        "perturbation_resilience": 0.5564839785286996,
+        "developmental_progress": 0.6,
+        "meaning_resilience": 0.8144237261453295,
+        "temporal_integration": 0.859693570159471,
+        "structural_complexity": 0.8260801393126943
+      },
+      "transcendent_2": {
+        "narrative_coherence": 0.8594525049416317,
+        "identity_stability": 0.3,
+        "modal_balance": 0.5708245621511117,
+        "perturbation_resilience": 0.577945914406875,
+        "developmental_progress": 0.6,
+        "meaning_resilience": 0.827899718003149,
+        "temporal_integration": 0.8594525049416317,
+        "structural_complexity": 0.8260801393126943
+      },
+      "transcendent_3": {
+        "narrative_coherence": 0.8544558899613273,
+        "identity_stability": 0.3,
+        "modal_balance": 0.7253281466444974,
+        "perturbation_resilience": 0.6068479853134304,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.8437374510279674,
+        "temporal_integration": 0.8544558899613273,
+        "structural_complexity": 0.8260801393126943
+      }
+    },
+    "integrator": {
+      "integrator_1": {
+        "narrative_coherence": 0.878197161320684,
+        "identity_stability": 0.3,
+        "modal_balance": 0.4706955257082549,
+        "perturbation_resilience": 0.5654179696699246,
+        "developmental_progress": 0.6,
+        "meaning_resilience": 0.8198926202676546,
+        "temporal_integration": 0.878197161320684,
+        "structural_complexity": 0.8260801393126943
+      },
+      "integrator_2": {
+        "narrative_coherence": 0.8421218241081119,
+        "identity_stability": 0.3,
+        "modal_balance": 0.6646030917443408,
+        "perturbation_resilience": 0.5897693479921129,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.8344112362995074,
+        "temporal_integration": 0.8421218241081119,
+        "structural_complexity": 0.8260801393126943
+      },
+      "integrator_3": {
+        "narrative_coherence": 0.8903519064962857,
+        "identity_stability": 0.3,
+        "modal_balance": 0.7445041205373817,
+        "perturbation_resilience": 0.6250415867059906,
+        "developmental_progress": 0.9,
+        "meaning_resilience": 0.848070393959397,
+        "temporal_integration": 0.8903519064962857,
+        "structural_complexity": 0.8260801393126943
+      }
+    }
+  },
+  "avg_metrics_by_type": {
+    "hedonic": {
+      "narrative_coherence": 0.8500851837448313,
+      "identity_stability": 0.3,
+      "modal_balance": 0.623192286027698,
+      "perturbation_resilience": 0.5846725307034721,
+      "developmental_progress": 0.7999999999999999,
+      "meaning_resilience": 0.8326365373043592,
+      "temporal_integration": 0.8500851837448313,
+      "structural_complexity": 0.8260801393126943
+    },
+    "eudaimonic": {
+      "narrative_coherence": 0.8649539332266315,
+      "identity_stability": 0.3,
+      "modal_balance": 0.6517226880732017,
+      "perturbation_resilience": 0.596326110905293,
+      "developmental_progress": 0.7999999999999999,
+      "meaning_resilience": 0.8356047382328066,
+      "temporal_integration": 0.8649539332266315,
+      "structural_complexity": 0.8260801393126943
+    },
+    "transcendent": {
+      "narrative_coherence": 0.8578673216874767,
+      "identity_stability": 0.3,
+      "modal_balance": 0.5863951537067216,
+      "perturbation_resilience": 0.5804259594163351,
+      "developmental_progress": 0.7000000000000001,
+      "meaning_resilience": 0.8286869650588153,
+      "temporal_integration": 0.8578673216874767,
+      "structural_complexity": 0.8260801393126943
+    },
+    "integrator": {
+      "narrative_coherence": 0.8702236306416938,
+      "identity_stability": 0.3,
+      "modal_balance": 0.6266009126633258,
+      "perturbation_resilience": 0.5934096347893427,
+      "developmental_progress": 0.7999999999999999,
+      "meaning_resilience": 0.8341247501755197,
+      "temporal_integration": 0.8702236306416938,
+      "structural_complexity": 0.8260801393126943
+    }
+  },
+  "timestamp": "2025-04-27T04:56:20.881946"
+}
